@@ -3,7 +3,7 @@
 		<div>
 			<h5 class="mb-0 fw-bold">Data Fakultas</h5>
 		</div>
-		<a class="btn btn-primary btn-lg fw-bold" href="<?php echo base_url('fakultas/tambah') ?>">Tambah</a>
+		<a class="btn btn-primary btn-lg fw-bold" href="<?php echo base_url('fakultas/tambah') ?>">ADD</a>
 	</div>
 
 	<div class="card-body">
@@ -11,10 +11,10 @@
 			<table id="datatable" class="table table-striped table-bordered align-middle w-100 mb-0">
 				<thead class="table-dark">
 					<tr>
-						<td>No.</td>
-						<td>ID Fakultas</td>
-						<td>Nama Fakultas</td>
-						<td>Aksi</td>
+						<td>No</td>
+						<td>Id_Fakultas</td>
+						<td>Name_Fakultas</td>
+						<td>Action</td>
 					</tr>
 				</thead>
 
