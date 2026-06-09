@@ -10,7 +10,7 @@
 				</div>
 
 				<a class="btn btn-light" href="<?php echo base_url('fakultas') ?>">
-					Kembali
+					BACK
 				</a>
 			</div>
 
@@ -20,7 +20,7 @@
 
 					<div class="mb-3">
 						<label for="fakultas_id" class="form-label">
-							ID Fakultas
+							Id_Fakultas
 						</label>
 
 						<input
@@ -29,7 +29,7 @@
 							id="fakultas_id"
 							class="form-control <?php echo form_error('fakultas_id') ? 'is-invalid' : (isset($_POST['fakultas_id']) ? 'is-valid' : ''); ?>"
 							value="<?php echo set_value('fakultas_id', isset($fakultas['fakultas_id']) ? $fakultas['fakultas_id'] : ''); ?>"
-							placeholder="Masukkan ID Fakultas">
+							placeholder="Silahkan masukkan id_fakultas">
 
 						<?php if (form_error('fakultas_id')): ?>
 							<div class="invalid-feedback">
@@ -40,7 +40,7 @@
 
 					<div class="mb-3">
 						<label for="fakultas_name" class="form-label">
-							Nama Fakultas
+							Nama_Fakultas
 						</label>
 
 						<input
@@ -49,7 +49,7 @@
 							id="fakultas_name"
 							class="form-control <?php echo form_error('fakultas_name') ? 'is-invalid' : (isset($_POST['fakultas_name']) ? 'is-valid' : ''); ?>"
 							value="<?php echo set_value('fakultas_name', isset($fakultas['fakultas_name']) ? $fakultas['fakultas_name'] : ''); ?>"
-							placeholder="Masukkan Nama Fakultas">
+							placeholder="Silahkan masukkan nama fakultas">
 
 						<?php if (form_error('fakultas_name')): ?>
 							<div class="invalid-feedback">
@@ -60,11 +60,11 @@
 
 					<div class="d-flex gap-2">
 						<button type="submit" class="btn btn-primary">
-							<?php echo isset($button) ? $button : 'Simpan'; ?>
+							<?php echo isset($button) ? $button : 'SAVE'; ?>
 						</button>
 
 						<a href="<?php echo base_url('fakultas') ?>" class="btn btn-secondary">
-							Batal
+							CANCEL
 						</a>
 					</div>
 
