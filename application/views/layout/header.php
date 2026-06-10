@@ -96,5 +96,5 @@
             <main class="col-md-9 col-lg-10 bg-white px-4 py-4 d-flex flex-column">
 
                 <h4 class="fw-bold mb-4">
-                    <?php echo $title ?>
+                    <!-- <?php echo $title ?> -->
                 </h4>
