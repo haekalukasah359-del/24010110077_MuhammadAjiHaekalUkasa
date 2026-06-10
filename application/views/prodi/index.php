@@ -15,7 +15,6 @@
 				<thead class="table-dark">
 					<tr>
 						<td>No.</td>
-						<td>ID Prodi</td>
 						<td>Nama Prodi</td>
 						<td>Strata</td>
 						<td>Fakultas</td>
@@ -27,7 +26,6 @@
 					<?php foreach ($prodi as $key => $value): ?>
 						<tr>
 							<td><?php echo $key + 1 ?>.</td>
-							<td><?php echo $value['prodi_id'] ?></td>
 							<td><?php echo $value['prodi_name'] ?></td>
 							<td><?php echo $value['prodi_strata'] ?></td>
 							<td><?php echo $value['fakultas_name'] ?></td>
